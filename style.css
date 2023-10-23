@@ -105,7 +105,7 @@
   right: -70px;
 }
 
-@media (min-width: 400px) and (max-width: 900px) {
+@media (min-width: 300px) and (max-width: 900px) {
   #firstContainer {
     flex-direction: column;
     padding: 0;
@@ -185,7 +185,7 @@
   top: 90px;
 }
 
-@media (min-width: 400px) and (max-width: 900px) {
+@media (min-width: 300px) and (max-width: 900px) {
   #secondContainer {
     height: 10vh;
     width: 100wv;
@@ -276,7 +276,7 @@
   width: 90%;
 }
 
-@media (min-width: 400px) and (max-width: 900px) {
+@media (min-width: 300px) and (max-width: 900px) {
   .thirdContainer {
     height: 100vh;
     width: 100wv;
@@ -378,7 +378,7 @@
   text-align: center;
 }
 
-@media (min-width: 400px) and (max-width: 900px) {
+@media (min-width: 300px) and (max-width: 900px) {
   .fifthContainer {
     height: 80vh;
     width: 100wv;
@@ -435,7 +435,7 @@
   background-size: 100% 100%;
 }
 
-@media (min-width: 400px) and (max-width: 900px) {
+@media (min-width: 300px) and (max-width: 900px) {
   .imgCont {
     background-image: url("https://docutrade.yodaplus.com/assets/img/process-mobile.svg");
     background-size: 100% 100%;
@@ -456,7 +456,7 @@
   align-items: center;
 }
 
-@media (min-width: 400px) and (max-width: 900px) {
+@media (min-width: 300px) and (max-width: 900px) {
   #seventhContainer {
     padding: 0px;
   }
@@ -544,7 +544,7 @@
   );
 }
 
-@media (min-width: 400px) and (max-width: 900px) {
+@media (min-width: 300px) and (max-width: 900px) {
   .cardContainer {
     padding: 10px 10px;
     font-size: 0.5rem;
@@ -595,7 +595,7 @@
   padding: 50px 0px;
 }
 
-@media (min-width: 400px) and (max-width: 900px) {
+@media (min-width: 300px) and (max-width: 900px) {
   #ninthContainer {
     flex-direction: column;
   }
@@ -687,7 +687,7 @@
   cursor: pointer;
 }
 
-@media (min-width: 400px) and (max-width: 900px) {
+@media (min-width: 300px) and (max-width: 900px) {
   #eleventhContainer {
     display: flex;
     flex-direction: column;
@@ -759,7 +759,7 @@
   list-style-type: none;
 }
 
-@media (min-width: 400px) and (max-width: 900px) {
+@media (min-width: 300px) and (max-width: 900px) {
   .footerTop {
     height: 50%;
     justify-content: center;
