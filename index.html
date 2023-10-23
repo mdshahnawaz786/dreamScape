@@ -1,294 +1,469 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="style.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-</head>
-<body>
-   <div class="mainContainer">
-    <!-- NavBar -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="mainContainer">
+      <!-- NavBar -->
 
-    <div class="navBarContainer">
+      <div class="navBarContainer">
         <nav class="navbar navbar-expand-lg">
-            <div class="container-fluid">
-              <!-- <a class="navbar-brand" href="#">Navbar</a> -->
-              <div class="logoContainer">
-                <img src="https://docutrade.yodaplus.com/assets/img/logo.svg" alt="">
-              </div>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                  <li class="nav-item">
-                    <!-- <a class="nav-link active" aria-current="page" href="#">Home</a> -->
-                    <a class="nav-link" href="#firstContainer">Home</a>
-                    
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#secondContainer">About</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#fourthContainer">Key Features</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#sixthContainer">Work Flow</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#seventhContainer">Advantage</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#ninthContainer">Partnership</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#tenthContainer">Contact Us</a>
-                  </li>
-                 
-                </ul>
-               
-              </div>
+          <div class="container-fluid">
+            <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+            <div class="logoContainer">
+              <img
+                src="https://docutrade.yodaplus.com/assets/img/logo.svg"
+                alt=""
+              />
             </div>
-          </nav>
-       </div>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <!-- <a class="nav-link active" aria-current="page" href="#">Home</a> -->
+                  <a class="nav-link" href="#firstContainer">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#secondContainer">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#fourthContainer">Key Features</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#sixthContainer">Work Flow</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#seventhContainer">Advantage</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#ninthContainer">Partnership</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#tenthContainer">Contact Us</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
 
-       <!-- first container -->
-       <div id="firstContainer">
+      <!-- first container -->
+      <div id="firstContainer">
         <div class="firstLeftContainer">
-            <h1 class="white">Transforming Trade Finance</h1>
-            <h1 class="white">with MLETR-Compliant</h1>
-            <h1 class="white">Documentation</h1>
-            <h1 class="yellow">- Yodaplus DocuTrade</h1><br><br>
-            <button class="firstLeftContainer_btn">Schedule a Demo</button>
+          <h1 class="white">Transforming Trade Finance</h1>
+          <h1 class="white">with MLETR-Compliant</h1>
+          <h1 class="white">Documentation</h1>
+          <h1 class="yellow">- Yodaplus DocuTrade</h1>
+          <br /><br />
+          <button class="firstLeftContainer_btn">Schedule a Demo</button>
         </div>
         <div class="rightLeftContainer">
-            <img src="https://docutrade.yodaplus.com/assets/img/header_3.png" alt="">
+          <img
+            src="https://docutrade.yodaplus.com/assets/img/header_3.png"
+            alt=""
+          />
         </div>
-       </div>
+      </div>
 
-       <!-- second container -->
+      <!-- second container -->
 
-       <div id="secondContainer">
-            <img class="leftComaImg" src="https://docutrade.yodaplus.com/assets/img/testimonials-icon-left.png" alt="">
-            <p class="secondContainer-text-one">With a focus on efficiency, security, and digitization, Yodaplus</p>
-            <p class="secondContainer-text-two">is leading the charge in modernizing trade finance.</p>
-            <img class="rightComaImg" src="https://docutrade.yodaplus.com/assets/img/testimonials-icon-right.png" alt="">
-       </div>
+      <div id="secondContainer">
+        <img
+          class="leftComaImg"
+          src="https://docutrade.yodaplus.com/assets/img/testimonials-icon-left.png"
+          alt=""
+        />
+        <p class="secondContainer-text-one">
+          With a focus on efficiency, security, and digitization, Yodaplus
+        </p>
+        <p class="secondContainer-text-two">
+          is leading the charge in modernizing trade finance.
+        </p>
+        <img
+          class="rightComaImg"
+          src="https://docutrade.yodaplus.com/assets/img/testimonials-icon-right.png"
+          alt=""
+        />
+      </div>
 
-       <!-- third container -->
+      <!-- third container -->
 
-       <div class="thirdContainer">
-          <div class="innerThirdContainer">
-            <div class="leftThirdContainer">
-              <h1>About Yodaplus DocuTrade</h1>
-              <br>
-              <div class="dash"></div>
-              <br>
-              <p>At Yodaplus, we're committed to revolutionizing trade finance with our innovative documentation solution, compliant with the Model Law on Electronic Transferable Records (MLETR). Our unique digital solution not only simplifies the complex process of trade documentation but also ensures that digital documents possess the same legal credibility as traditional paper documents. This results in a secure and efficient trade environment, enabling you to focus on what truly matters - your business growth.</p>
-              <button class="thirdContainer-btn">Read more <i class="fa-sharp fa-solid fa-chevron-down"></i></button>
-            </div>
-            <div class="rightThirtContainer">
-                <img src="https://docutrade.yodaplus.com/assets/img/about-img.png" alt="">
-            </div>
+      <div class="thirdContainer">
+        <div class="innerThirdContainer">
+          <div class="leftThirdContainer">
+            <h1>About Yodaplus DocuTrade</h1>
+            <br />
+            <div class="dash"></div>
+            <br />
+            <p>
+              At Yodaplus, we're committed to revolutionizing trade finance with
+              our innovative documentation solution, compliant with the Model
+              Law on Electronic Transferable Records (MLETR). Our unique digital
+              solution not only simplifies the complex process of trade
+              documentation but also ensures that digital documents possess the
+              same legal credibility as traditional paper documents. This
+              results in a secure and efficient trade environment, enabling you
+              to focus on what truly matters - your business growth.
+            </p>
+            <button class="thirdContainer-btn">
+              Read more <i class="fa-sharp fa-solid fa-chevron-down"></i>
+            </button>
           </div>
-       </div>
+          <div class="rightThirtContainer">
+            <img
+              src="https://docutrade.yodaplus.com/assets/img/about-img.png"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
 
-       <!-- fourth container -->
+      <!-- fourth container -->
 
-       <div id="fourthContainer">
-        <h1>Our Solution's Key Features</h1><br>
+      <div id="fourthContainer">
+        <h1>Our Solution's Key Features</h1>
+        <br />
         <div class="dash"></div>
-       </div>
+      </div>
 
-       <!-- fifth container -->
+      <!-- fifth container -->
 
-       <div class="fifthContainer">
+      <div class="fifthContainer">
         <div class="innerFifthContainer">
-          <img src="https://docutrade.yodaplus.com/assets/img/feature-icon1.svg" alt=""><br>
-          <b>Digital Document Management</b><br>
-          <p>Facilitate the creation and management of vital documents such as the Bill of Lading, Certificate of Origin, Commercial Invoice, and more.</p>
+          <img
+            src="https://docutrade.yodaplus.com/assets/img/feature-icon1.svg"
+            alt=""
+          /><br />
+          <b>Digital Document Management</b><br />
+          <p>
+            Facilitate the creation and management of vital documents such as
+            the Bill of Lading, Certificate of Origin, Commercial Invoice, and
+            more.
+          </p>
         </div>
         <div class="innerFifthContainer">
-          <img src="https://docutrade.yodaplus.com/assets/img/feature-icon2.svg" alt=""><br>
-          <b>SME Empowerment</b><br>
-          <p>Bridge the trade finance gap, providing essential funding resources to SMEs.</p>
+          <img
+            src="https://docutrade.yodaplus.com/assets/img/feature-icon2.svg"
+            alt=""
+          /><br />
+          <b>SME Empowerment</b><br />
+          <p>
+            Bridge the trade finance gap, providing essential funding resources
+            to SMEs.
+          </p>
         </div>
         <div class="innerFifthContainer">
-          <img src="https://docutrade.yodaplus.com/assets/img/feature-icon3.svg" alt=""><br>
-          <b>Interoperability</b><br>
-          <p>Capitalize on the synergies of the Open Attestation platform for verifiable documents and and transferable records.</p>
+          <img
+            src="https://docutrade.yodaplus.com/assets/img/feature-icon3.svg"
+            alt=""
+          /><br />
+          <b>Interoperability</b><br />
+          <p>
+            Capitalize on the synergies of the Open Attestation platform for
+            verifiable documents and and transferable records.
+          </p>
         </div>
-       </div>
+      </div>
 
-       <!-- sixth container -->
+      <!-- sixth container -->
 
-       <div id="sixthContainer">
-          <h1>Yodaplus DocuTrade-Workflow</h1><br>
-          <div class="dash"></div>
-          <div class="imgCont">
-            <!-- <img  src="" alt=""> -->
+      <div id="sixthContainer">
+        <h1>Yodaplus DocuTrade-Workflow</h1>
+        <br />
+        <div class="dash"></div>
+        <div class="imgCont">
+          <!-- <img  src="" alt=""> -->
+        </div>
+      </div>
+
+      <!-- seventh container -->
+
+      <div id="seventhContainer">
+        <h1>The Yodaplus Advantage</h1>
+        <br />
+        <div class="dash"></div>
+        <br />
+        <p>
+          Our MLETR Compliant Documentation Solution streamlines trade
+          operations, bolsters security, and minimizes paperwork by digitizing
+          crucial trade documents. Furthermore, it ensures legal compliance and
+          enhances the transparency and traceability of trade processes,
+          simplifying document verification and promoting trust among trading
+          partners.
+        </p>
+      </div>
+
+      <!-- eighth container -->
+
+      <div class="eighthContainer">
+        <div class="btnContainer">
+          <div class="btnSwipe"><</div>
+        </div>
+        <div class="cardContainer">
+          <div class="contentContainer">
+            <img
+              src="	https://docutrade.yodaplus.com/assets/img/advantage-06.svg"
+              alt=""
+            />
+            <h5>Ease of Document Verification</h5>
           </div>
-       </div>
-
-       <!-- seventh container -->
-
-       <div id="seventhContainer">
-        <h1>The Yodaplus Advantage</h1><br>
-        <div class="dash"></div><br>
-        <p>Our MLETR Compliant Documentation Solution streamlines trade operations, bolsters security, and minimizes paperwork by digitizing crucial trade documents. Furthermore, it ensures legal compliance and enhances the transparency and traceability of trade processes, simplifying document verification and promoting trust among trading partners.</p>
-       </div>
-
-       <!-- eighth container -->
-
-       <div class="eighthContainer">
-           <div class="btnContainer">
-            <div class="btnSwipe"><</div>
-           </div>
-          <div class="cardContainer">
-            <div class="contentContainer">
-              <img src="	https://docutrade.yodaplus.com/assets/img/advantage-06.svg" alt="">
-              <h5>Ease of Document Verification</h5>
-            </div>
-            <br>
-            <p>We leverage the power of blockchain technology to simplify document verification. Real-time validation of digital documents eliminates the chance of fraud, increases efficiency, and instills trust in your trade transactions.</p>
+          <br />
+          <p>
+            We leverage the power of blockchain technology to simplify document
+            verification. Real-time validation of digital documents eliminates
+            the chance of fraud, increases efficiency, and instills trust in
+            your trade transactions.
+          </p>
+        </div>
+        <div class="cardContainer">
+          <div class="contentContainer">
+            <img
+              src="	https://docutrade.yodaplus.com/assets/img/advantage-07.svg"
+              alt=""
+            />
+            <h5>Fostering Trade Relationships</h5>
           </div>
-          <div class="cardContainer">
-            <div class="contentContainer">
-              <img src="	https://docutrade.yodaplus.com/assets/img/advantage-07.svg" alt="">
-              <h5>Fostering Trade Relationships</h5>
-            </div>
-            <br>
-            <p>By increasing transparency, enhancing security, and promoting accountability, our solution cultivates a conducive environment for building robust relationships with your trading partners. With increased trust and efficiency, explore new collaborative opportunities for growth and expansion.</p>
+          <br />
+          <p>
+            By increasing transparency, enhancing security, and promoting
+            accountability, our solution cultivates a conducive environment for
+            building robust relationships with your trading partners. With
+            increased trust and efficiency, explore new collaborative
+            opportunities for growth and expansion.
+          </p>
+        </div>
+        <div class="cardContainer">
+          <div class="contentContainer">
+            <img
+              src="	https://docutrade.yodaplus.com/assets/img/advantage-01.svg"
+              alt=""
+            />
+            <h5>Efficiency Boost</h5>
           </div>
-          <div class="cardContainer">
-            <div class="contentContainer">
-              <img src="	https://docutrade.yodaplus.com/assets/img/advantage-01.svg" alt="">
-              <h5>Efficiency Boost</h5>
-            </div>
-            <br>
-            <p>With Yodaplus, you are not just digitizing your trade operations, you are transforming them. Our MLETR Compliant Documentation Solution simplifies complex processes and brings a new level of efficiency to your operations, freeing you to focus on strategic business growth.</p>
-          </div>
-          <div class="btnContainer">
-            <div class="btnSwipe">></div>
-          </div>
-       </div>
+          <br />
+          <p>
+            With Yodaplus, you are not just digitizing your trade operations,
+            you are transforming them. Our MLETR Compliant Documentation
+            Solution simplifies complex processes and brings a new level of
+            efficiency to your operations, freeing you to focus on strategic
+            business growth.
+          </p>
+        </div>
+        <div class="btnContainer">
+          <div class="btnSwipe">></div>
+        </div>
+      </div>
 
-       <!-- ninth container -->
+      <!-- ninth container -->
 
-       <div id="ninthContainer">
+      <div id="ninthContainer">
         <div class="ninthLeftContainer">
-          <img src="https://docutrade.yodaplus.com/assets/img/xdc-big-logo.svg" alt="">
+          <img
+            src="https://docutrade.yodaplus.com/assets/img/xdc-big-logo.svg"
+            alt=""
+          />
         </div>
         <div class="ninthRightContainer">
           <h1>Our Strategic Partnership with</h1>
-          <h1>XDC Trade Network</h1><br>
-          <div class="dash"></div><br>
+          <h1>XDC Trade Network</h1>
+          <br />
+          <div class="dash"></div>
+          <br />
           <h3>In association with the XDC Trade Network, we've</h3>
           <h3>developed a platform that revolutionizes trade</h3>
           <h3>finance.</h3>
-          <br>
-          <p>The XDC Trade Network provides a comprehensive solution that combines their expertise in blockchain and trade finance with our MLETR compliant documentation solution. Our partnership leverages the strength of both parties, driving the digital transformation of trade finance and fostering a more efficient and accessible global trade environment. Together, we are redefining the future of trade finance, paving the way for simplified operations, enhanced security, and greater inclusivity in global trade.</p>
+          <br />
+          <p>
+            The XDC Trade Network provides a comprehensive solution that
+            combines their expertise in blockchain and trade finance with our
+            MLETR compliant documentation solution. Our partnership leverages
+            the strength of both parties, driving the digital transformation of
+            trade finance and fostering a more efficient and accessible global
+            trade environment. Together, we are redefining the future of trade
+            finance, paving the way for simplified operations, enhanced
+            security, and greater inclusivity in global trade.
+          </p>
         </div>
-       </div>
+      </div>
 
-       <!-- tenth container -->
+      <!-- tenth container -->
 
+      <div id="tenthContainer">
+        <h1>Ready to Experience the Future</h1>
+        <h1>of Trade Finance?</h1>
+        <br />
+        <div class="dash"></div>
+        <br />
+        <p>
+          Join the ranks of businesses revolutionizing their trade finance
+          operations with Yodaplus.
+        </p>
+        <p>Contact us now for more information or to schedule a demo.</p>
+      </div>
 
-       <div id="tenthContainer">
-          <h1>Ready to Experience the Future</h1>
-          <h1>of Trade Finance?</h1>
-          <br>
-          <div class="dash"></div>
-          <br>
-          <p>Join the ranks of businesses revolutionizing their trade finance operations with Yodaplus.</p>
-          <p>Contact us now for more information or to schedule a demo.</p>
-       </div>
+      <!-- elevents container -->
 
-       <!-- elevents container -->
-
-       <div id="eleventhContainer">
+      <div id="eleventhContainer">
         <div class="leftEleventhContainer">
           <div class="upper">
-            <h2><b>Get in touch</b></h2><br>
-            <p> <i class="fa-sharp fa-solid fa-envelope"></i> contact@yodaplus.com</p>
+            <h2><b>Get in touch</b></h2>
+            <br />
+            <p>
+              <i class="fa-sharp fa-solid fa-envelope"></i> contact@yodaplus.com
+            </p>
           </div>
           <div class="lower"></div>
         </div>
         <div class="rightEleventhContainer">
-          <h2><b>Book a Demo</b></h2><br>
-         
-          <form class="form needs-validation" novalidate id="contact-Form" method="post">
+          <h2><b>Book a Demo</b></h2>
+          <br />
+
+          <form
+            class="form needs-validation"
+            novalidate
+            id="contact-Form"
+            method="post"
+          >
             <div class="row">
-                <div class="col-lg-6">
-                    <div class="form-group mb-20 wow fadeInUp">
-                        <input type="text" id="name" name="from_name" class="form-control" placeholder="Name *" required>
-                    </div>
+              <div class="col-lg-6">
+                <div class="form-group mb-20 wow fadeInUp">
+                  <input
+                    type="text"
+                    id="name"
+                    name="from_name"
+                    class="form-control"
+                    placeholder="Name *"
+                    required
+                  />
                 </div>
-                <div class="col-lg-6">
-                    <div class="form-group mb-20 wow fadeInUp">
-                        <input type="text" id="phone" name="phone_no" class="form-control" placeholder="Phone Number *" required>
-                    </div>
-                </div><br><br>
-                <div class="col-lg-6">
-                    <div class="form-group mb-20 wow fadeInUp">
-                        <input type="text" id="email" name="email" class="form-control" placeholder="Email Address *" required>
-                    </div>
+              </div>
+              <div class="col-lg-6">
+                <div class="form-group mb-20 wow fadeInUp">
+                  <input
+                    type="text"
+                    id="phone"
+                    name="phone_no"
+                    class="form-control"
+                    placeholder="Phone Number *"
+                    required
+                  />
                 </div>
-                <div class="col-lg-6">
-                    <div class="form-group mb-20 wow fadeInUp">
-                        <input type="text" id="subject" name="subject" class="form-control" placeholder="Subject *" required>
-                    </div>
-                </div><br><br>
-                <div class="col-lg-12">
-                    <div class="form-group mb-20 wow fadeInUp">
-                        <textarea rows="4" id="message" name="message" class="form-control" placeholder="Requirements?" required></textarea>
-                    </div>
+              </div>
+              <br /><br />
+              <div class="col-lg-6">
+                <div class="form-group mb-20 wow fadeInUp">
+                  <input
+                    type="text"
+                    id="email"
+                    name="email"
+                    class="form-control"
+                    placeholder="Email Address *"
+                    required
+                  />
                 </div>
-                <br><br><br><br><br>
-                <div class="col-lg-12 wow fadeInUp">
-                    <div id="submitBtn">Submit</div>
+              </div>
+              <div class="col-lg-6">
+                <div class="form-group mb-20 wow fadeInUp">
+                  <input
+                    type="text"
+                    id="subject"
+                    name="subject"
+                    class="form-control"
+                    placeholder="Subject *"
+                    required
+                  />
                 </div>
+              </div>
+              <br /><br />
+              <div class="col-lg-12">
+                <div class="form-group mb-20 wow fadeInUp">
+                  <textarea
+                    rows="4"
+                    id="message"
+                    name="message"
+                    class="form-control"
+                    placeholder="Requirements?"
+                    required
+                  ></textarea>
+                </div>
+              </div>
+              <br /><br /><br /><br /><br />
+              <div class="col-lg-12 wow fadeInUp">
+                <div id="submitBtn">Submit</div>
+              </div>
             </div>
-        </form>
+          </form>
         </div>
-       </div>
+      </div>
 
-<!--  last Container -->
+      <!--  last Container -->
 
-       <div class="footerContainer">
-          <div class="footerTop">
-            <div class="firstFooterContainer">
-              <img src="https://docutrade.yodaplus.com/assets/img/logo-footer.svg" alt="">
-            </div>
-            <div class="secondFooterContainer">
-              <img src="https://docutrade.yodaplus.com/assets/img/yodaplus-logo.svg" alt="">
-            </div>
-            <div class="thirdFooterContainer">
-              <ul>
-                <li>Home</li>
-                <li>About</li>
-                <li>Key Features</li>
-                <li>Work Flow</li>
-                <li>Advantage</li>
-                <li>Partnership</li>
-                <li>Contack Us</li>
-              </ul>
-            </div>
+      <div class="footerContainer">
+        <div class="footerTop">
+          <div class="firstFooterContainer">
+            <img
+              src="https://docutrade.yodaplus.com/assets/img/logo-footer.svg"
+              alt=""
+            />
           </div>
-          <hr>
-          <p>© 2023 – Yodaplus. All rights reserved.</p>
-       </div>
-
-
-
-
-
-
-   </div>
-</body>
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+          <div class="secondFooterContainer">
+            <img
+              src="https://docutrade.yodaplus.com/assets/img/yodaplus-logo.svg"
+              alt=""
+            />
+          </div>
+          <div class="thirdFooterContainer">
+            <ul>
+              <li>Home</li>
+              <li>About</li>
+              <li>Key Features</li>
+              <li>Work Flow</li>
+              <li>Advantage</li>
+              <li>Partnership</li>
+              <li>Contack Us</li>
+            </ul>
+          </div>
+        </div>
+        <hr />
+        <p>© 2023 – Yodaplus. All rights reserved.</p>
+      </div>
+    </div>
+  </body>
+  <script
+    src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+    integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+    crossorigin="anonymous"
+  ></script>
 </html>
