@@ -105,7 +105,7 @@
   right: -70px;
 }
 
-@media screen and (max-width: 400px) {
+@media (min-width: 400px) and (max-width: 900px) {
   #firstContainer {
     flex-direction: column;
     padding: 0;
@@ -185,7 +185,7 @@
   top: 90px;
 }
 
-@media screen and (max-width: 400px) {
+@media (min-width: 400px) and (max-width: 900px) {
   #secondContainer {
     height: 10vh;
     width: 100wv;
@@ -276,7 +276,7 @@
   width: 90%;
 }
 
-@media screen and (max-width: 400px) {
+@media (min-width: 400px) and (max-width: 900px) {
   .thirdContainer {
     height: 100vh;
     width: 100wv;
@@ -378,7 +378,7 @@
   text-align: center;
 }
 
-@media screen and (max-width: 400px) {
+@media (min-width: 400px) and (max-width: 900px) {
   .fifthContainer {
     height: 80vh;
     width: 100wv;
@@ -409,7 +409,7 @@
   }
   .innerFifthContainer b,
   p {
-    font-size: 0.7rem;
+    font-size: 0.6rem;
   }
 }
 
@@ -435,7 +435,7 @@
   background-size: 100% 100%;
 }
 
-@media screen and (max-width: 400px) {
+@media (min-width: 400px) and (max-width: 900px) {
   .imgCont {
     background-image: url("https://docutrade.yodaplus.com/assets/img/process-mobile.svg");
     background-size: 100% 100%;
@@ -456,7 +456,7 @@
   align-items: center;
 }
 
-@media screen and (max-width: 400px) {
+@media (min-width: 400px) and (max-width: 900px) {
   #seventhContainer {
     padding: 0px;
   }
@@ -472,27 +472,27 @@
   justify-content: space-around;
 }
 
-.btnContainer{
+.btnContainer {
   height: 90%;
   width: 5%;
   /* border: 1px solid black; */
   display: flex;
-  justify-content:center ;
+  justify-content: center;
   align-items: center;
 }
 
-.btnSwipe{
+.btnSwipe {
   height: 7%;
   width: 50%;
   border-radius: 50%;
   /* border: 1px solid black; */
   display: flex;
-  justify-content:center ;
+  justify-content: center;
   align-items: center;
   background: white;
   cursor: pointer;
 }
-.btnSwipe:hover{
+.btnSwipe:hover {
   background-color: #b8d200;
   background-image: linear-gradient(
     43deg,
@@ -501,8 +501,7 @@
     #1b7b4e 100%
   );
 }
-.contentContainer:hover{
- 
+.contentContainer:hover {
   background-color: #b8d200;
   background-image: linear-gradient(
     43deg,
@@ -512,7 +511,7 @@
   );
 }
 
-.cardContainer{
+.cardContainer {
   height: 80%;
   width: 26%;
   padding: 30px 30px;
@@ -521,12 +520,11 @@
   border-radius: 8px;
 }
 
-.cardContainer:hover{
-  
-  background-color:#153239;
+.cardContainer:hover {
+  background-color: #153239;
   color: white;
 }
-.contentContainer{
+.contentContainer {
   height: 20%;
   width: 100%;
   display: flex;
@@ -535,10 +533,8 @@
   gap: 15px;
   background-color: #dff4f7;
   border-radius: 8px;
-  
 }
-.contentContainer:hover{
- 
+.contentContainer:hover {
   background-color: #b8d200;
   background-image: linear-gradient(
     43deg,
@@ -548,39 +544,24 @@
   );
 }
 
-@media screen and (max-width:400px) {
-  .cardContainer{
+@media (min-width: 400px) and (max-width: 900px) {
+  .cardContainer {
     padding: 10px 10px;
-    font-size: .5rem;
+    font-size: 0.5rem;
   }
-  .contentContainer{
+  .contentContainer {
     flex-direction: column;
     justify-content: center;
     align-items: center;
   }
-  .contentContainer img{
+  .contentContainer img {
     height: 50%;
     width: 50%;
-    
   }
-  .contentContainer h5{
-   font-size: .6rem;
+  .contentContainer h5 {
+    font-size: 0.6rem;
   }
 }
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* -------------------- */
 
@@ -614,7 +595,7 @@
   padding: 50px 0px;
 }
 
-@media screen and (max-width: 400px) {
+@media (min-width: 400px) and (max-width: 900px) {
   #ninthContainer {
     flex-direction: column;
   }
@@ -706,7 +687,7 @@
   cursor: pointer;
 }
 
-@media screen and (max-width: 400px) {
+@media (min-width: 400px) and (max-width: 900px) {
   #eleventhContainer {
     display: flex;
     flex-direction: column;
@@ -778,7 +759,7 @@
   list-style-type: none;
 }
 
-@media screen and (max-width: 400px) {
+@media (min-width: 400px) and (max-width: 900px) {
   .footerTop {
     height: 50%;
     justify-content: center;
